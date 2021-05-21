@@ -57,7 +57,7 @@ h4 {
   }
 }
 
-@media screen and (max-width: https://github.com/dkryvi/birthday-countdown400px) {
+@media screen and (max-width: 400px) {
   h2 {
     font-size: 3rem;
     padding: 1.5rem;
