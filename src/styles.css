@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  padding: 3rem;
+  color: #6c63ff;
+  text-align: center;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+.coming-soon {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.countdown {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 2rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.time-value {
+  color: #6c63ff;
+}
+
+.waiting {
+  height: 50vh;
+}
+
+@media screen and (max-width: 960px) {
+  .countdown {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: https://github.com/dkryvi/birthday-countdown400px) {
+  h2 {
+    font-size: 3rem;
+    padding: 1.5rem;
+  }
+
+  .countdown {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1.5rem;
+  }
+
+  .waiting {
+    padding: 0 1.5rem;
+  }
+}
